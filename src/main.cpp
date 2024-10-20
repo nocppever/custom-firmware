@@ -64,5 +64,5 @@ void process_packet(const uint8_t* packet, size_t length) {
 
 void trigger_alert() {
     Serial.println(F("ALERT: Potential intrusion detected!"));
-    // Add additional alert mechanisms here
+    
 }
